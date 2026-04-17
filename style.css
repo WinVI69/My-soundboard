@@ -56,6 +56,7 @@ html{
     content: "";
     position: absolute;
     background-image: var(--background-image2);
+    background-posiotion: top;
 }
 
 #btn3::before{
@@ -74,6 +75,7 @@ html{
     content: "";
     position: absolute;
     background-image: var(--background-image5);
+    background-posiotion: top;
 }
 
 #btn6::before{

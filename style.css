@@ -1,0 +1,123 @@
+html{
+    background-color: rgb(26, 26, 26);
+}
+:root{
+    --background-image1: url('images/an3tocom.png');
+    --background-image2: url('images/bomman1.png');
+    --background-image3: url('images/theHub.png');
+    --background-image4: url('images/mikasa.png');
+    --background-image5: url('images/conquest.png');
+    --background-image6: url('images/ironPipe.png');
+    --background-image7: url('images/fahh.png');
+    --background-image8: url('images/imgay.png');
+    --background-image9: url('images/Kira.png');
+    --background-image10: url('images/bomman2.png');
+    --background-image11: url('images/fnaf.png');
+    --background-image12: url('images/jumpinthecak.png');
+}
+.Buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100vh;
+}
+.theButton{
+    position: relative;
+    width: 350px;
+    height: 200px;
+    font-size: 3rem;
+    border-radius: 15px;
+    transition: 0.2s ease;
+    cursor: pointer;
+    overflow: hidden;
+    border: none;
+    background-color: black;
+    color: white;
+    z-index: 1;
+}
+.theButton::before{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s ease;
+    opacity: 0;
+
+}
+#btn1::before{
+    content: "";
+    position: absolute;
+    background-image: var(--background-image1);
+    
+}
+
+#btn2::before{
+    content: "";
+    position: absolute;
+    background-image: var(--background-image2);
+}
+
+#btn3::before{
+    content: "";
+    position: absolute;
+    background-image: var(--background-image3);
+}
+
+#btn4::before{
+    content: "";
+    position: absolute;
+    background-image: var(--background-image4);
+}
+
+#btn5::before{
+    content: "";
+    position: absolute;
+    background-image: var(--background-image5);
+}
+
+#btn6::before{
+    content: "";
+    position: absolute;
+    background-image: var(--background-image6);
+}
+
+#btn7::before{
+    content: "";
+    position: absolute;
+    background-image: var(--background-image7);
+}
+
+#btn8::before{
+    content: "";
+    position: absolute;
+    background-image: var(--background-image8);
+}
+
+#btn9::before{
+    content: "";
+    position: absolute;
+    background-image: var(--background-image9);
+}
+
+#btn10::before{
+    content: "";
+    position: absolute;
+    background-image: var(--background-image10);
+}
+
+#btn11::before{
+    content: "";
+    position: absolute;
+    background-image: var(--background-image11);
+}
+
+#btn12::before{
+    content: "";
+    position: absolute;
+    background-image: var(--background-image12);
+}
+.theButton:hover::before{
+    opacity: 1;
+    transition: 1.3s ease;
+}
